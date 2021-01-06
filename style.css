@@ -1,0 +1,83 @@
+body{
+    margin-top: 50px;
+    padding-top: 50px;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+.name-highlight
+{
+    color:#FF8367;
+}
+.intro{
+  
+    width: 50%;
+    float: left;
+}
+.side-img{
+    width:50%;
+    padding-left: 25%;
+}
+.primary-btn{
+    color: white;
+    background-color: #FB7462;
+    padding: 13px 42px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    border: 1px solid red;
+    padding-left:5%;
+    display: inline-block;
+}
+.center-text{
+    text-align: center;
+    color:#363958;
+    font-size: 40px;
+}
+.experience{
+    border: 1px solid rgb(25, 0, 255);
+    width:25%;
+    background-color: #FFFFFF ;
+    margin-left: 50px;
+    border-radius:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.inqury{
+    border: 1px solid red;
+    margin-top: 20px;
+    margin-left: 50px;
+    width:900px;
+    height:100px;
+    background-color: #4C3FC9;
+}
+.intro h1{
+    font-size: 50px;
+}
+.chat-btn{
+    margin-top:50px;
+    
+    height: 100px;
+}
+.contact{
+    background-color: #111A28;
+    color: #FFFFFF;
+}
+.contact-btn{
+    background-color: #00CF5D;
+}
+.center-color{
+    color: #FFFFFF;
+}
+.contact-links{
+    
+}
+.working{
+    background-color: #F8F9FC;
+}
+.footer{
+    width: 100%;
+    margin: 0 auto;
+}
