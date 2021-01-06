@@ -3,13 +3,14 @@ body{
     padding-top: 50px;
     font-family: sans-serif;
     line-height: 20px;
+    margin:0 auto;
 }
 .name-highlight
 {
     color:#FF8367;
 }
 .intro{
-  
+    text-align: left;
     width: 50%;
     float: left;
 }
@@ -43,9 +44,14 @@ body{
     border-radius:5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
+    padding-bottom: 100px;
 }
 .inqury{
+    margin: 110px auto;
     background-image: url("images/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     margin-top: 20px;
     margin-left: 50px;
     width:1000px;
@@ -64,15 +70,13 @@ body{
 .contact{
     background-color: #111A28;
     color: #FFFFFF;
+    display: inline-block;
 }
 .contact-btn{
     background-color: #00CF5D;
 }
 .center-color{
     color: #FFFFFF;
-}
-.contact-links{
-    
 }
 .working{
     background-color: #F8F9FC;
@@ -86,5 +90,19 @@ body{
     background-color: #FB7462;
     width:100px;
     height: 50px;
+}
+#download-icon{
+    background-image: url("images/download.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width:395px;
+    height: 28px;
+    text-align: center;
+    
 
+}
+#download-icon a{
+    font-size: 50px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
